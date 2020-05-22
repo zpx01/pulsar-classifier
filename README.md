@@ -1,5 +1,5 @@
 # Pulsar Classifier
-A machine learning model based on k-Nearest-Neighbors for classifying pulsars based on pulsar radio wave emission patterns. 
+A machine learning model based on k-Nearest-Neighbor for classifying pulsars based on pulsar radio wave emission patterns. 
 
 ## Abstract
 HTRU2 is a data set which describes a sample of pulsar candidates collected during the High Time Resolution Universe Survey.
@@ -31,7 +31,7 @@ HTRU 2 Summary:
   3. 16,259 negative examples.
 
 ## Machine Learning Model 
-For the data analysis, a classification method was used in order to predict the classes. Specifically, a k-Nearest-Neighbors test was utilized for the model. Specific parameters implemented are the following:
+For the data analysis, a classification method was used in order to predict the classes. Specifically, a k-Nearest-Neighbor test was utilized for the model. Specific parameters implemented are the following:
 
   1. n_neighbors = n (n is a dynamic number and can be changed by the user)
   2. weights = 'uniform'
